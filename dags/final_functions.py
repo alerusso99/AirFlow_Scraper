@@ -17,7 +17,7 @@ def scraping_web():
             driver = definition_browser.fun_definition_browser()
 
             # Ci rechiamo alla seguente pagina.
-            driver.get("https://tramontano.it/collections/nuovi-arrivi")
+            driver.get(url)
 
             # Impostiamo il tempo di attesa massimo a 120 secondi.
             wait = WebDriverWait(driver, 120)
